@@ -70,7 +70,7 @@ export default function App() {
 
           
         <input type= "range" min={6} max={50} value={lenght} className='cursor-pointer mb-5' onChange={(e) => {setLenght(e.target.value)}}></input>
-        <label className='text-white ml-3 mr-7'>Lenght : {lenght}</label>
+        <label className='text-white ml-3 mr-7'>Length : {lenght}</label>
 
           
           <input type="checkbox" className='cursor-pointer' id="numberInput" defaultChecked={numberAllowed} onChange={()=>{setNumberAllowed((prev) => !prev)}}></input>
